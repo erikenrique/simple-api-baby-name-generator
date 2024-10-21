@@ -11,7 +11,26 @@
 /* LAYOUT
 /*******************************************/
 
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+div {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+select, input, label {
+  margin-left: 10px;
+}
+
+ul {
+  list-style-position: inside;
+  margin-left: -50px;
+}
 
 /******************************************
 /* ADDITIONAL STYLES

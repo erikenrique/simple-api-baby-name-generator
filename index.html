@@ -12,16 +12,26 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-
-		<label for="gender">Choose your baby's gender:</label>
-		<select id="gender" name="gender">
-			<option value="boy">Boy</option>
-			<option value="girl">Girl</option>
-			<option value="Neutral">Neutral</option>
-		</select>
-		<input type="checkbox" id="popularNames" name="popularNames" checked />
-    	<label for="popularNames">Popular names only?</label>
-		<button type="button" name="button">Generate names</button>
+		<header>
+			<h1>Baby Name Generator</h1>
+		</header>
+		<form action="" method="">
+			<div>
+				<label for="gender">Choose your baby's gender:</label>
+				<select id="gender" name="gender">
+					<option value="boy">Boy</option>
+					<option value="girl">Girl</option>
+					<option value="Neutral">Neutral</option>
+				</select>
+			</div>
+			<div>
+				<input type="checkbox" id="popularNames" name="popularNames" checked />
+				<label for="popularNames">Popular names only?</label>
+			</div>
+			<div>
+				<button type="button" name="button">Generate names</button>
+			</div>
+		</form>
 
 		<h4>Your baby names: </h4>
 		<ul></ul>
